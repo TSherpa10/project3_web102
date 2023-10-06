@@ -28,7 +28,7 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 130vh;
 }
 
 h1 {
@@ -134,4 +134,24 @@ button:focus-visible {
 
 .red {
   background: rgba(255, 132, 132, 0.6);
+}
+
+.guess-div {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  justify-content: center;
+}
+
+.white-text {
+  color: white;
+  margin-right: 10px;
+}
+
+.green-border {
+  border: 2px solid green;
+}
+
+.red-border {
+  border: 2px solid red;
 }
